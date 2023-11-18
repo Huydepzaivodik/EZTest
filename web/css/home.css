@@ -1,0 +1,319 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+body{
+    margin: auto;
+    width: 1400px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+div.row{
+    display: flex;
+    margin-left: 645px;
+    width: 1000px;
+}
+
+.col-md-8{
+    margin-right: 300px;
+}
+
+.auto-style1{
+    font-size: 14px;
+}
+
+hr.line {
+    border: 8px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 1000px;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.label-success {
+    background-color: #6D8EB9;
+}
+
+.label {
+    margin-left: 8px;
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 80%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius:1.0em;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    top: 0;
+    background-color: gainsboro;
+    margin-left: 260px;
+    margin-right:140px;
+    padding-top: 10px;
+    border-radius: 1em;
+}
+
+.box{
+    padding: 15px 17px;
+    margin: 34px 0 50px;
+    border-radius: 0 5px 5px 5px;
+    background: rgba(255,255,255,0.7);
+    position: relative;
+    color: #234166;
+    box-shadow: 0 0 5px #c4cacc;
+}
+
+.box h3 {
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -34px;
+    padding: 0 15px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.orangeTitle {
+    background-position: 0 -400px;
+    background-color: #ef8d01;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#header .rmItem .rmLink, .box h3 {
+    background-image: url(../images/sprite.png);
+    background-repeat: repeat-x;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input{
+    font-family: inherit;
+}
+
+.feedback{
+    margin-left: 220px;
+}
+
+.fed{
+    margin-left: 140px;
+}
+
+img{
+    margin-top: 20px;
+    height: 280px;
+}
+
+.support{
+    margin-top: -8px;
+    margin-left: 450px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.support1{
+    margin-left: 250px;
+}
+
+.logo{
+    width: 150px;
+    height: 75px;
+}
+
+img.logoFPT{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+font{
+    padding-left: 5px;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa {
+    position: relative;
+    display: table-cell;
+    width: 81px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+}
+
+.main-menu:hover,nav.main-menu.expanded {
+    width:250px;
+    overflow:visible;
+}
+
+.main-menu {
+    background: #212121;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 74px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1,1);
+    z-index: 1000;
+}
+
+.main-menu>ul {
+    margin:7px 0;
+}
+
+.main-menu li {
+    position:relative;
+    display:block;
+    width:250px;
+    height: auto;
+}
+
+.main-menu li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+}
+
+.main-menu .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+.main-menu .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.no-touch .scrollable.hover {
+    overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+    overflow-y:auto;
+    overflow:visible;
+}
+
+a:hover,a:focus {
+    text-decoration:none;
+}
+
+nav {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+nav ul,nav li {
+    outline:0;
+    margin:0;
+    padding:0;
+}
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+    color:#fff;
+    background-color:#000000;
+}
+
+.area {
+    float: left;
+    background: #e2e2e2;
+    width: 100%;
+    height: 100%;
+}
+
+.error{
+    color: red;
+}
+
+.create-account-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account-link:hover {
+    background-color: #235a99;
+}
+
+
+
